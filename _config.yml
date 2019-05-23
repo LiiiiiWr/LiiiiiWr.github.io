@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://moonight.com
+url: http://moonight.xyz
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -91,5 +91,5 @@ search:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/LiiiiiWr/LiiiiiWr.github.is.git
+  repo: https://github.com/LiiiiiWr/LiiiiiWr.git
   branch: master
