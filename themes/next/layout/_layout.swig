@@ -22,7 +22,9 @@
   {% include '_third-party/analytics/index.swig' %}
   {{ partial('_scripts/noscript.swig', {}, {cache: theme.cache.enable}) }}
 </head>
-
+{% if theme.canvas_nest %}
+<script type="text/javascript" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+{% endif %}
 <body itemscope itemtype="http://schema.org/WebPage" lang="{{ page.lang || page.language || config.language }}">
 
   {% set container_class = 'container' %}
@@ -38,7 +40,7 @@
     </header>
 
     {{ partial('_partials/github-banner.swig', {}, {cache: theme.cache.enable}) }}
-
+<div id="pjax-container">
     <main id="main" class="main">
       <div class="main-inner">
         <div class="content-wrap">
@@ -54,7 +56,9 @@
           {% block sidebar %}{% endblock %}
         {% endif %}
       </div>
+      {% include 'password.swig' %}
     </main>
+  </div>
 
     <footer id="footer" class="footer">
       <div class="footer-inner">

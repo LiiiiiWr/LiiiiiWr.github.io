@@ -82,6 +82,22 @@ feed:
   limit: 0
 plugins: hexo-generate-feed
 
+# Live2D
+## https://github.com/xiazeyu/live2d-widget.js
+## https://l2dwidget.js.org/docs/class/src/index.js~L2Dwidget.html#instance-method-init
+live2d:
+  enable: true
+  pluginModelPath: assets/
+  model:
+    use: live2d-widget-model-miku
+  display:
+    width: 150
+    height: 300
+    position: left
+  mobile:
+    show: true
+    scale: 0.5
+
 search:
   path: search.xml
   field: post
@@ -91,5 +107,5 @@ search:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/LiiiiiWr/LiiiiiWr.git
+  repo: https://github.com/LiiiiiWr/LiiiiiWr.github.io.git
   branch: master
