@@ -54,6 +54,7 @@
         </div>
         {% if theme.sidebar.display !== 'remove' %}
           {% block sidebar %}{% endblock %}
+
         {% endif %}
       </div>
       {% include 'password.swig' %}
@@ -126,5 +127,7 @@
   {% include '_third-party/copy-code.swig' %}
   {% include '_third-party/chatra.swig' %}
   {% include '_third-party/tidio.swig' %}
+  
+
 </body>
 </html>

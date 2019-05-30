@@ -36,7 +36,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -103,9 +103,20 @@ search:
   field: post
   format: html
   limit: 10000
+
+leancloud_counter_security:
+  enable_sync: true
+  app_id: 6SMly4QX2GshrRNGBCaYHUxs-gzGzoHsz
+  app_key: nhTF7pLDosiYJetSOEBgw32A
+  username: 
+  password: 
+
+aplayer:
+  meting: true
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: https://github.com/LiiiiiWr/LiiiiiWr.github.io.git
+  type: git  
+  -type: leancloud_counter_security_sync
+  repo: https://github.com/Moolight/Moolight.github.io.git
   branch: master
