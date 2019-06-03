@@ -60,4 +60,4 @@ tags:
 <code>hexo d</code> (部署到github)
 浏览器输入： http://用户名.github.io,即可查看
 
-  {% meting  "2811137616" "netease" "playlist"  "theme:#FF4081" "mode:circulation" "mutex:true" "listmaxheight:340px" "preload:auto" %}
+{% meting "2811137616" "netease" "playlist" "theme: #FF4081" "mode: circulation" "mutex: true" "listmaxheight: 340px" "preload: auto %}

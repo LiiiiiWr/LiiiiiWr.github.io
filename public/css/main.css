@@ -1205,6 +1205,7 @@ pre .javascript .function {
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
+  color: #fff;
 }
 .menu .menu-item a:hover,
 .menu .menu-item span.exturl:hover {
@@ -1805,7 +1806,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #50b145;
+  background: #62ff1d;
 }
 .feed-link,
 .chat {
@@ -2537,9 +2538,20 @@ pre {
   -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
-* {
-  cursor: url("http://om8u46rmb.bkt.clouddn.com/sword2.ico"), auto !important;
+.main-inner {
+  margin-top: 60px;
+  padding: 60px 60px 60px 60px;
+  background: #fff;
+  opacity: 0.75;
+  min-height: 500px;
 }
-:active {
-  cursor: url("http://om8u46rmb.bkt.clouddn.com/sword1.ico"), auto !important;
+.backstretch {
+  opacity: 0.75;
+}
+.content-wrap,
+.sidebar {
+  opacity: 0.9 !important;
+}
+.header-inner {
+  background: rgba(255,255,255,0) !important;
 }

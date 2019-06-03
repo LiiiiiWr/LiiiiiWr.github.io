@@ -127,7 +127,7 @@
   {% include '_third-party/copy-code.swig' %}
   {% include '_third-party/chatra.swig' %}
   {% include '_third-party/tidio.swig' %}
-  
+  {% include '_custom/custom-foot.swig' %}
 
 </body>
 </html>

@@ -144,6 +144,7 @@
               {% endif %}
               {% set ccURL = 'https://creativecommons.org/' + ccType %}
               {% set ccImage = '<img src="' + url_for(theme.images + '/cc-' + theme.creative_commons.license + '.svg') + '" alt="Creative Commons"/>' %}
+            
               {{ next_url(ccURL, ccImage, {class: 'cc-opacity'}) }}
              </div>
           {% endif %}
@@ -162,6 +163,7 @@
                   </li>
                 {% endfor %}
               </ul>
+
             </div>
           {% endif %}
 
@@ -169,10 +171,14 @@
             {% set custom_sidebar = '../../../../' + theme.custom_file_path.sidebar %}
           {% else %}
             {% set custom_sidebar = '../_custom/sidebar.swig' %}
+            
           {% endif %}
           {% include custom_sidebar %}
+          
         </div>
       </div>
+     
+ 
 
       {% if display_toc and toc(page.content).length > 1 %}
       <!--noindex-->
