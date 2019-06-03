@@ -1805,7 +1805,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #50b145;
+  background: #04c298;
 }
 .feed-link,
 .chat {
@@ -2537,9 +2537,13 @@ pre {
   -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
-* {
-  cursor: url("http://om8u46rmb.bkt.clouddn.com/sword2.ico"), auto !important;
+.backstretch {
+  opacity: 0.75;
 }
-:active {
-  cursor: url("http://om8u46rmb.bkt.clouddn.com/sword1.ico"), auto !important;
+.content-wrap,
+.sidebar {
+  opacity: 0.9 !important;
+}
+.header-inner {
+  background: rgba(255,255,255,0.9) !important;
 }
