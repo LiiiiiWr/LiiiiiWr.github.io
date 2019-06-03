@@ -1100,7 +1100,7 @@ pre .javascript .function {
 }
 @media (max-width: 767px) {
   .site-meta {
-    text-align: center;
+    text-align: left;
   }
 }
 .brand {
@@ -1205,6 +1205,7 @@ pre .javascript .function {
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
+  color: #fff;
 }
 .menu .menu-item a:hover,
 .menu .menu-item span.exturl:hover {
@@ -1805,7 +1806,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #04c298;
+  background: #7a22fe;
 }
 .feed-link,
 .chat {
@@ -2537,6 +2538,13 @@ pre {
   -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
+.main-inner {
+  margin-top: 60px;
+  padding: 60px 60px 60px 60px;
+  background: #fff;
+  opacity: 0.75;
+  min-height: 500px;
+}
 .backstretch {
   opacity: 0.75;
 }
@@ -2545,5 +2553,5 @@ pre {
   opacity: 0.9 !important;
 }
 .header-inner {
-  background: rgba(255,255,255,0.9) !important;
+  background: rgba(255,255,255,0) !important;
 }
