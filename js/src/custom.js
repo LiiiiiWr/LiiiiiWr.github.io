@@ -6,5 +6,5 @@
           "/images/background/3.png",
           "/images/background/4.png",
           "/images/background/5.png"
-        ], { duration: 60000, fade: 1500 });  
+        ], { duration: 30000, fade: 1500 });  
     });
