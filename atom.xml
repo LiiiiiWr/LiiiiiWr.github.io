@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://moonight.xyz/"/>
+  <link href="http://moonight.cn/"/>
   <updated>2019-06-04T03:01:08.602Z</updated>
-  <id>http://moonight.xyz/</id>
+  <id>http://moonight.cn/</id>
   
   <author>
     <name>练习两年半的练习生</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>使用hexo搭建个人博客</title>
-    <link href="http://moonight.xyz/2019/05/29/first/"/>
-    <id>http://moonight.xyz/2019/05/29/first/</id>
+    <link href="http://moonight.cn/2019/05/29/first/"/>
+    <id>http://moonight.cn/2019/05/29/first/</id>
     <published>2019-05-29T02:34:50.000Z</published>
     <updated>2019-06-04T03:01:08.602Z</updated>
     
@@ -38,7 +38,7 @@
     
     </summary>
     
-      <category term="搭建博客" scheme="http://moonight.xyz/categories/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
+      <category term="搭建博客" scheme="http://moonight.cn/categories/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
     
     
   </entry>
